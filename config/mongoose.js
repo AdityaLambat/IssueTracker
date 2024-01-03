@@ -1,12 +1,21 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
-const connectDB = async () => {
-    try {
-        await mongoose.connect(process.env.MONGODB_CONNECT_URI)
-        console.log("Connect to MongoDB successfully")
-    } catch (error) {
-        console.log("Connect failed " + error.message )
-    }
-}
+mongoose.connect("mongodb+srv://MongoDBCluster:MongoDBCluster@mongodbcluster1301.mzjex1w.mongodb.net/ProjectTracker",{
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-module.exports = connectDB
+
+
+
+
+const db = mongoose.connection; // db store the connection
+
+// cheacking the connection
+db.on("error", console.error.bind(console, "connection error:"));
+db.once("open", function () {
+  console.log("DATABASE connection is Established");
+});
+
+// exporting the connection.
+module.exports = db;
