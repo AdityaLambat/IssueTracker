@@ -1,0 +1,19 @@
+<div class="container col-lg-8 border border-secondary border-1 p-3" style="margin-top: 2%;">
+  <table class="table table-borderless">
+    <tbody>
+      <tr class="table-primary">
+        <th scope="row"><h4>Project Name : </h4></th>
+        <td><h5><%= project.name %></h5></td>
+      </tr>
+      <tr class="table-warning">
+        <th scope="row"><h4>Project Author : </h4></th>
+        <td><h5><%= project.author %></h5></td>
+      </tr>
+      <tr class="table-dark">
+        <th scope="row"><h4>Project Description : </h4></th>
+        <td><h5><%= project.description %></h5></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<%-include('./partials/_issues'); %>

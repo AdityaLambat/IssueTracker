@@ -1,0 +1,26 @@
+<body>
+  <!-- Your HTML code here -->
+  <div class="mb-5 p-5">
+    <% for( let project of projects ) { %>
+      <div class="card mb-2 w-50 m-auto bg-dark text-light">
+        <div class="card-header">
+          <strong> Name of the Project : </strong>
+          <%= project.name %>
+        </div>
+        <div class="card-body">
+          <p class="card-subtitle mb-2 text-light">
+            <strong> Author : </strong>
+              <%= project.author %>
+          </p>
+          <p class="card-text text-light">
+            <strong> Description : </strong>
+            <%= project.description %>
+          </p>
+          <div class="m-auto text-end">
+            <a href="/project/<%=project._id%>" class="btn btn-light m-auto"><b>Open Project</b></a>
+          </div>
+        </div>
+      </div>
+      <% } %>
+  </div>
+</body>
