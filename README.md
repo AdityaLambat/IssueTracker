@@ -1,9 +1,8 @@
 # IssueTracker
 
-```
 Developed a dynamic and responsive full-stack web application using Node.js and EJS for efficient issue tracking and project management.
 Implemented advanced filtering options, allowing users to filter issues by multiple labels, author, and search by title and description for enhanced project detail exploration.
-```
+
 
 ## Deployed On
 **Render**
