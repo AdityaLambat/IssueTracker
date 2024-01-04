@@ -1,11 +1,11 @@
 # IssueTracker
-
+````
 <p align="justify">
   Developed a dynamic and responsive full-stack web application using Node.js and EJS for efficient issue tracking and project management.
   Implemented advanced filtering options, allowing users to filter issues by multiple labels, author, and search by title and description for enhanced project detail
   exploration.
 </p>
-
+````
 
 ## Deployed On
 **Render**
@@ -14,12 +14,12 @@
 https://issuretracker.onrender.com/
 
 ## Features
-
+````
 1. Allows users to create detailed issues, including a title, description.
 2. Assigns issues to specific team members or individuals responsible for addressing them.
 3. Tracks the status of each issue.
 4. Allows the categorization of issues with labels or tags (e.g., bug, enhancement, documentation).
-
+````
 ## Technologies Used
 
 The IssueTracker is build using the following technologies:
@@ -83,5 +83,4 @@ Issue Tracker
     |---> index.js
     |---> package-lock.json
     |---> package.json
-
     ````
