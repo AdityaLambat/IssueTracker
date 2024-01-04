@@ -6,9 +6,7 @@ Implemented advanced filtering options, allowing users to filter issues by multi
 ```
 
 ## Deployed On
-```
 **Render**
-```
 
 ## Hosted Link
 https://issuretracker.onrender.com/
