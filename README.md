@@ -41,13 +41,13 @@ To set up the API on your local machine, follow these steps:
 
 ````
 
-### After reaching the project directory you have to run the following command.
+## After reaching the project directory you have to run the following command.
 ````
  node index.js
 
 ````
 
-### Folder Structure
+## Folder Structure
 
 ````
 Issue Tracker
