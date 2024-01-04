@@ -43,52 +43,35 @@ To set up the API on your local machine, follow these steps:
 ### Folder Structure
 
 ````
-HireMe
+Issue Tracker
   ->|           
-    |---> .expo 
+    |---> assets --->|
+    |                |---> js --->|
+    |                             |---> filterissues.js
+    |                             |---> searchissues.js
     |                  
-    |---> .vscode
+    |---> config --->|
+    |                |---> mongoose.js
     |
-    |---> api --->|
-    |             |---> models --->|
-    |             |                |---> application.js
-    |             |                |---> education.js
-    |             |                |---> jobs.js
-    |             |                |---> resume.js
-    |             |                |---> users.js
-    |             |                |---> workexperience.js
-    |             |---> index.js
-    |             |---> ip.js
-    |             |                
-    |---> assets
-    |---> components --->|
-    |                    |---> Button.js
-    |                    |---> colors.js
-    |                    |---> CustomButton.js
-    |                    |---> FloatingLabelInput.js
-    |                    |---> InputField.js
-    |                    |---> PasswordValidation.js
-    |                    |---> Styles.js
-    |
-    |---> navigation --->|
-    |                    |---> AuthStack.js 
+    |---> controllers --->|
+    |                     |---> home_controller.js
+    |                     |---> project_controller.js
     |             
-    |---> node_modules.js
+    |---> models--->|
+    |               |---> issue.js
+    |               |---> project.js
     |
-    |---> Screens --->|
-    |                 |---> ApplicationScreen.js
-    |                 |---> AppliesScreen.js
-    |                 |---> ChangePasswordScreen.js
-    |                 |---> EmailVerifyScreen.js
-    |                 |---> ForgotPasswordScreen.js
-    |                 |---> HomeScreen.js
-    |                 |---> JobDetailsScreen.js
-    |                 |---> JobScreen.js
-    |                 |---> LoginScreen.js
-    |                 |---> MainScreen.js
-    |                 |---> OnBoardingScreen.js
-    |                 |---> ProfileScreen.js
-    |                 |---> RegisterScreen.js
+    |---> routes --->|
+    |                |---> index.js
+    |                |---> project.js
+    |
+    |---> views --->|
+    |               |---> partials --->|
+    |                                  |---> home.ejs
+    |                                  |---> layout.ejs
+    |                                  |---> project_page.ejs
+    |             
+    |---> README.md
     |---> .gitignore
     |---> App.js
     |---> app.json
